@@ -1,0 +1,125 @@
+/* Reset some default styles */
+body, h1, h2, label, select, input {
+    margin: 10px;
+    padding: 10px;
+  
+  }
+  p{
+    font-family:'Crimson Text';
+    font-size: 20px;
+  }
+  
+  /* Apply some basic styles to the container */
+  .container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #093a44; 
+   background-image:linear-gradient(rgba(95, 232, 236, 0.7),rgba(123, 188, 220, 0.7)),url(images.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 20px;
+  font-family: Bricolage Grotesque;
+  }
+  
+  /* Style the form */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="button"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="button"] {
+    cursor: pointer;
+    background-color:  #2665a9;
+    color: #fff;
+    border:1px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the results section */
+  .results {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Adjust styles for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      max-width: 100%;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    label {
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+    
+    select, input[type="button"] {
+      font-size: 14px;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+  }
+  
+  /* Adjust styles for screens smaller than 480px */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    label {
+      font-size: 12px;
+      margin-bottom: 3px;
+    }
+    
+    select, input[type="button"] {
+      font-size: 12px;
+      padding: 6px;
+      margin-bottom: 6px;
+    }
+  }
+  
