@@ -19,7 +19,7 @@ To get this project up and running on your local machine, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/amulyajois/metro-system-shortest-path.git
+   git clone https://github.com/amulyajois/Shortest-Path-and-Fare-Calculator-for-Delhi-Metro.git
 2. Navigate to the project directory
    cd metro-system-shortest-path
 3. Open index.html in your preferred web browser.
